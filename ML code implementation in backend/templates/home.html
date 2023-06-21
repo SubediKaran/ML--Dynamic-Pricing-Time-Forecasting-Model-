@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Dynamic Pricing</title>
+</head>
+
+<body>
+   
+
+                Dynamic Pricing<br><br>
+                ----------------
+
+
+<form action="{% url 'result'%}">
+
+  {% csrf_token %}
+   
+    <label for="porduct_id">Product Category:</label>
+    <select id="product_id" name="input1">
+      <option value="c6dd917a0be2a704582055949915ab32">T-shirt</option>
+      <option value="601a360bd2a916ecef0e88de72a6531a">Pant</option>
+      <option value="3354a4e684f5e7199f9407db70ccd92b">Teddy Bear</option>
+      <option value="29427de7f8a9ee983d9dbc51cec569b4">Jeep Toy</option>
+      <option value="ee406bf28024d97771c4b1e8b7e8e219">Loreal Perfume</option>
+      <option value="165f86fe8b799a708a20ee4ba125c289">Purse by jockey</option>
+      <option value="computer_accessories">Tizen Watch model m2768</option>
+  
+   
+
+        
+    <input type="submit" name="" value="Submit">
+
+</form>
+
+
+
+
+</body>
+</html>
